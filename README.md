@@ -1,5 +1,5 @@
 # ESP32-GMP
-ESP32 untuk mendeteksi gempa memakai MPU6050 dan Buzzer. Dah itu aja
+ESP32 untuk mendeteksi gempa memakai MPU6050 dan Buzzer.
 
 Bisa digunakan memakai platform.io dan Arduino IDE. Tetapi saya memakai platform.io, sehingga saya menyarankan memakai platform.io.
 Dari kode ini sangat masih jauh dari sempurna, saya berharap jadikan ini sebagai referensi ataupun anda bisa membuat yang lebih bagus daripada yang saya buat.
@@ -68,7 +68,7 @@ Sistem pendeteksi gempa bumi secara real-time menggunakan mikrokontroler ESP32 d
 
 - [PlatformIO](https://platformio.org/) atau [Arduino IDE](https://www.arduino.cc/en/software)
 - Paket Board ESP32
-- Library (sudah termasuk dalam ESP32 core):
+- Library (sudah termasuk dalam ESP32 core): 
   - `Arduino.h`
   - `Wire.h` (komunikasi I2C)
 
@@ -78,8 +78,8 @@ Sistem pendeteksi gempa bumi secara real-time menggunakan mikrokontroler ESP32 d
 
 1. **Clone repositori ini:**
    ```bash
-   git clone https://github.com/yourusername/earthquake-detector-esp32.git
-   cd earthquake-detector-esp32
+   git clone https://github.com/Dwaka-11/ESP32-GMP.git
+   cd ESP32-GMP
    ```
 
 2. **Buka proyek:**
